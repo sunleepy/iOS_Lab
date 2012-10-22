@@ -40,6 +40,7 @@
             tagsTotalHeight += fillLabel.frame.size.height + 2;
             tagsTotalWidth = 0.0f;
             fillLabel.frame = CGRectMake(tagsTotalWidth, tagsTotalHeight, fillLabel.frame.size.width, fillLabel.frame.size.height);
+            tagsTotalWidth += fillLabel.frame.size.width + 2;
         }
         [self addSubview:fillLabel];
         [fillLabel release];
